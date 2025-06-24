@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'arial';
+    src: url(./assets/ARIAL.TTF);
+}
+
+body {
+    font-family: 'arial';
+}
+
+main {
+    width: 37rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main img {
+    width: 12rem;
+    position: relative;
+    left: 13rem;
+}
+
+.p1 {
+    justify-self: center;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-bottom: 21px;
+}
+
+
+form {
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 40px 11px 42px;
+    gap: 3px;
+}
+
+input {
+    width: 16rem;
+    height: 42px;
+    margin: 0px 0px;
+    border-radius: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.254);
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+
+input::placeholder {
+    color: rgb(83, 83, 83);
+}
+
+.show {
+    margin: 0;
+    position: relative;
+    color: gray;
+    font-size: .7rem;
+    width: 2rem;
+    top: -27px;
+    left: 86%;
+    cursor: pointer;
+}
+
+button {
+    justify-self: center;
+    margin-bottom: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 12rem;
+    cursor: pointer;
+}
+
+.signup, .reset {
+    justify-self: center;
+    color: gray;
+    font-size: .8rem;
+}
+
+.signup a, .reset a {
+    color: rgb(73, 73, 73);
+}
+
+.footer-p1, .footer-p1 a {
+    font-size: .7rem;
+    color: gray;
+    width: 14rem;
+    margin-inline: auto;
+    margin-top: 32px;
+    margin-bottom: 3px;
+}
+
+.footer-p2, .footer-p2 a {
+    font-size: .7rem;
+    color: gray;
+    width: 15rem;
+    margin-inline: auto;
+    margin-top: 0;
+}
+
+
